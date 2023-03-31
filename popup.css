@@ -1,0 +1,39 @@
+body{
+    background: rgb(176, 176, 191);
+}
+
+.wrapper{
+
+    width: 300px;
+    text-align: center;
+}
+
+.changeColorbtn{
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(251, 239, 10);
+    cursor: pointer;
+}
+
+.colorGrid{
+    /* bcz it is span we have to give it inline-block otherwise it will not take height`and width */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: bold;
+}
